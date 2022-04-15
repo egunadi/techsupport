@@ -1,0 +1,19 @@
+Problem Description: The SP mrg_complexupdpatnotif looks for any notification that wasn't completed.
+
+Background: I would believe that this was implemented, in case there was an account that had a pending notification.
+
+Issue: There could be notification years,months, and days ago that weren't completed for any type of reason.
+Cause: Issues that took time resolve with patient notification, turned off notification, ect.
+
+Additional Comments:
+I think this SP should be altered to only look for future notifications that haven't been completed.
+
+Proposed Solution (per Chatter comments):
+1. Remove the existing "complex" logic handling PNNotifications. This can be done by commenting out the call to [mrg_complexupdpatnotif] in [mrg_complextablesupd].
+2. To account for the legacy PNNotifications table, modify [mrg_seedvalidtables] to house it under a "simple mergetype" with an "ACCOUNT simplemergekey".
+
+As reference, FR-002243 has been created to account for MINotify tables. This will involve:
+(a) Working with John Shore to document what MINotify tables are affected by PAM
+(b) Updating stored proc [mrg_complexupdpatnotif] accordingly
+(c) Uncommenting the call to [mrg_complexupdpatnotif] in [mrg_complextablesupd]
+(d) Modifying [mrg_seedvalidtables] to account for the MINotify tables

@@ -1,0 +1,18 @@
+*Description*
+
+*Steps to reproduce/Testing done*
+
+*Results of Testing*
+Expected behavior: 
+Actual behavior: 
+
+*Errors/Logs*
+{code}{code}
+
+*Question/task*
+
+*Goal*
+
+*Reproduced...*
+Reproduced in trunk? 
+Reproduced in branch? 

@@ -1,0 +1,79 @@
+[PBI Grooming]
+
++ Assign to John whenever doing a pull request
+
++ Goal: Use Sarah's PBI project to go through agile practices
+
++ Grooming is used for us to go through stories
+  - How can we take the work and further break it down
+    * 20 pt stories are not predictable (3-5 pt stories are)
+
++ An epic could go across multiple releases
+  - In this case, PBI would be an epic
+
++ Stories make up an epic, delineating what we need to get done
+
++ In each issue we jot down the issue's
+  - Description
+    * Ideally, the expectations of the task should be listed here (the "what" and the "how") by whoever is requesting it  (AC - Acceptance Criteria)
+      > "What" is the data that I want to see?
+      > "What" do we want the user to experience?
+        # When user opens report, the data should load in x number of seconds
+        # What should users expect to see in the report?  Write this from the user's perspective:
+          @ "As a general manager, I want to run a report to see my appointment trends so that I can better manage my department."
+    * Writing all this down will help minimize scope creep.  It puts clarity in the beginning on what we are trying to accomplish
+  - If there are obstacles, they are not added in the story because they add unknowns (pts will also increase)
+    * Obstacles are typically incorporated as a spike
+    * Stories need to be very clear.  Everybody should know what they are doing and agree
+  - QA would be a workflow step
+  - There would be an evaluation/agreement on how many points the story is
+    * We are not looking at effort (how many days it'll take to make)
+    * Points go up when we have a lot of unknowns or risks
+      > 3 is the standard
+      > In this case, mobile development should be moved to a different pass
+        # It's a high risk trying to get this all in before CAB and Summit
+
++ As we apply effort to tasks, there will be a burnup and burndown?
+  - This is tied to the time estimate for each task
+  - To apply time, we could go through Issues
+
++ Each story has its own set of subtasks
+  - We have the option of documenting within the subtask or documenting within the story
+
++ It would probably be beneficial to touch bases with the client to see how much data they are interested in looking at
+  - However, as we are on a deadline to get this out to the CAB, we may need to keep things simple with this...
+
++ Log any interruptions to the hours that have been allocated to the project
+
++ Green tasks are the story, whereas the purple are the subtasks
+
++ Anything outside of the PBR project should be marked as an MI_DB task
+
++ To review, create an 'In-Review' subtask for 15 minutes.  Place this in the 'In Review' column.
+
+
+
+  __  __ ___ ____  ____  ____    _____  ____  ____
+ |  \/  |_ _|  _ \|  _ \/ ___|  / / _ \|  _ \|  _ \
+ | |\/| || || |_) | |_) \___ \ / / | | | |_) | |_) |
+ | |  | || ||  __/|  __/ ___) / /| |_| |  __/|  __/
+ |_|  |_|___|_|   |_|   |____/_/  \__\_\_|   |_|
+
++ CB - give overview
+  - DB we have the crew.  Establish a product owner - Kellee
+    * Lynn and Jorge will provide support to her
+  - Goal is to retire Dashboard and replace it
+  - Already identified CMS's push to use CPT codes to measure num/dem performance
+  - In the MIPS categories
+    * Quality replaces PQRS
+    * ACI replaces MU
+
++ MVP: We need to deliver reporting mechanism with the 2015 edition criteria that allows customers to attest to their participation to the quality payment program (QPP)
+
++ What is our timeline?
+  - Ultimate deadline is Jan 1, 2019 for clients to be using 2015 software
+  - We are anticipating that CMS will approve the allowance of 2014 software next year (2018)
+  - It is not out of the question to use our current dashboard
+  - We need to review G1 testing criteria and work around that to test with our proctor
+
++ Our current Dashboard must be modified to meet short term needs
